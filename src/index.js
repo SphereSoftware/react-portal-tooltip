@@ -81,9 +81,9 @@ class Card extends Component {
     let arrowStyle = assign(this.defaultArrowStyle, this.props.style.arrowStyle)
     let bgBorderColor = arrowStyle.borderColor ? arrowStyle.borderColor : 'transparent'
 
-    let fgColorBorder = `10px solid ${arrowStyle.color}`
+    let fgColorBorder = `11px solid ${arrowStyle.color}`
     let fgTransBorder = '8px solid transparent'
-    let bgColorBorder = `11px solid ${bgBorderColor}`
+    let bgColorBorder = `12px solid ${bgBorderColor}`
     let bgTransBorder = '9px solid transparent'
 
     let {position, arrow} = this.props
